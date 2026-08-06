@@ -1,0 +1,1562 @@
+[
+  {
+    "filename": "type_a_0001_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "AHFTR8040G",
+      "dob": "08/09/2003",
+      "address": "28, Lake View Lane, Bengaluru - 671412"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0002_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "AHFTR8040G",
+      "dob": "08/09/2003",
+      "address": "28, Lake View Lane, Bengaluru - 671412"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0003_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "AHFTR8040G",
+      "dob": "08/09/2003",
+      "address": "28, Lake View Lane, Bengaluru - 671412"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0004_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "AHFTR8040G",
+      "dob": "08/09/2003",
+      "address": "28, Lake View Lane, Bengaluru - 671412"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0005_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "PVAUS3193C",
+      "dob": "08/09/2003",
+      "address": "28, Lake View Lane, Bengaluru - 671412"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_a_0006_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Diya Verma",
+      "id_number": "JIGBL1902U",
+      "dob": "20/06/2001",
+      "address": "197, MG Road, Pune - 338968"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0007_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Verma",
+      "id_number": "JIGBL1902U",
+      "dob": "20/06/2001",
+      "address": "197, MG Road, Pune - 338968"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0008_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Verma",
+      "id_number": "JIGBL1902U",
+      "dob": "20/06/2001",
+      "address": "197, MG Road, Pune - 338968"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0009_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Verma",
+      "id_number": "JIGBL1902U",
+      "dob": "20/06/2001",
+      "address": "197, MG Road, Pune - 338968"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0010_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Reddy",
+      "id_number": "JIGBL1902U",
+      "dob": "20/06/2001",
+      "address": "197, MG Road, Pune - 338968"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0011_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Verma",
+      "id_number": "JLVEJ6760U",
+      "dob": "06/09/1980",
+      "address": "168, Station Road, Hyderabad - 383060"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0012_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Verma",
+      "id_number": "JLVEJ6760U",
+      "dob": "06/09/1980",
+      "address": "168, Station Road, Hyderabad - 383060"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0013_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Verma",
+      "id_number": "JLVEJ6760U",
+      "dob": "06/09/1980",
+      "address": "168, Station Road, Hyderabad - 383060"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0014_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Verma",
+      "id_number": "JLVEJ6760U",
+      "dob": "06/09/1980",
+      "address": "168, Station Road, Hyderabad - 383060"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0015_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Nair",
+      "id_number": "JLVEJ6760U",
+      "dob": "06/09/1980",
+      "address": "168, Station Road, Hyderabad - 383060"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0016_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Bhatt",
+      "id_number": "UFAIG2983U",
+      "dob": "16/07/1994",
+      "address": "147, Church Road, Bengaluru - 358607"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0017_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Bhatt",
+      "id_number": "UFAIG2983U",
+      "dob": "16/07/1994",
+      "address": "147, Church Road, Bengaluru - 358607"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0018_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Bhatt",
+      "id_number": "UFAIG2983U",
+      "dob": "16/07/1994",
+      "address": "147, Church Road, Bengaluru - 358607"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0019_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Bhatt",
+      "id_number": "UFAIG2983U",
+      "dob": "16/07/1994",
+      "address": "147, Church Road, Bengaluru - 358607"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0020_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Bhatt",
+      "id_number": "TLPJZ1478E",
+      "dob": "16/07/1994",
+      "address": "147, Church Road, Bengaluru - 358607"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_a_0021_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Iyer",
+      "id_number": "UKBJZ5980X",
+      "dob": "04/11/1999",
+      "address": "769, Church Road, Jaipur - 456699"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0022_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Iyer",
+      "id_number": "UKBJZ5980X",
+      "dob": "04/11/1999",
+      "address": "769, Church Road, Jaipur - 456699"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0023_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Iyer",
+      "id_number": "UKBJZ5980X",
+      "dob": "04/11/1999",
+      "address": "769, Church Road, Jaipur - 456699"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0024_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Iyer",
+      "id_number": "UKBJZ5980X",
+      "dob": "04/11/1999",
+      "address": "769, Church Road, Jaipur - 456699"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0025_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Iyer",
+      "id_number": "EASSZ7516U",
+      "dob": "04/11/1999",
+      "address": "769, Church Road, Jaipur - 456699"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_a_0026_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Kulkarni",
+      "id_number": "FJEYX9541L",
+      "dob": "27/05/1980",
+      "address": "60, Park Street, Ahmedabad - 182582"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0027_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Kulkarni",
+      "id_number": "FJEYX9541L",
+      "dob": "27/05/1980",
+      "address": "60, Park Street, Ahmedabad - 182582"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0028_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Kulkarni",
+      "id_number": "FJEYX9541L",
+      "dob": "27/05/1980",
+      "address": "60, Park Street, Ahmedabad - 182582"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0029_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Kulkarni",
+      "id_number": "FJEYX9541L",
+      "dob": "27/05/1980",
+      "address": "60, Park Street, Ahmedabad - 182582"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0030_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Neha Rao",
+      "id_number": "FJEYX9541L",
+      "dob": "27/05/1980",
+      "address": "60, Park Street, Ahmedabad - 182582"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0031_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Neha Iyer",
+      "id_number": "DMOGW4257G",
+      "dob": "23/05/1990",
+      "address": "688, Church Road, Hyderabad - 642717"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0032_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Iyer",
+      "id_number": "DMOGW4257G",
+      "dob": "23/05/1990",
+      "address": "688, Church Road, Hyderabad - 642717"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0033_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Iyer",
+      "id_number": "DMOGW4257G",
+      "dob": "23/05/1990",
+      "address": "688, Church Road, Hyderabad - 642717"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0034_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Iyer",
+      "id_number": "DMOGW4257G",
+      "dob": "23/05/1990",
+      "address": "688, Church Road, Hyderabad - 642717"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0035_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Ishaan Verma",
+      "id_number": "DMOGW4257G",
+      "dob": "23/05/1990",
+      "address": "688, Church Road, Hyderabad - 642717"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0036_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Ananya Sharma",
+      "id_number": "PFFBQ2980H",
+      "dob": "09/11/1996",
+      "address": "220, Lake View Lane, Bengaluru - 698782"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0037_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Ananya Sharma",
+      "id_number": "PFFBQ2980H",
+      "dob": "09/11/1996",
+      "address": "220, Lake View Lane, Bengaluru - 698782"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0038_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Ananya Sharma",
+      "id_number": "PFFBQ2980H",
+      "dob": "09/11/1996",
+      "address": "220, Lake View Lane, Bengaluru - 698782"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0039_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Ananya Sharma",
+      "id_number": "PFFBQ2980H",
+      "dob": "09/11/1996",
+      "address": "220, Lake View Lane, Bengaluru - 698782"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0040_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Neha Singh",
+      "id_number": "PFFBQ2980H",
+      "dob": "09/11/1996",
+      "address": "220, Lake View Lane, Bengaluru - 698782"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0041_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Neha Patel",
+      "id_number": "ECLLM7690M",
+      "dob": "24/06/1971",
+      "address": "255, Park Street, Bengaluru - 662336"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0042_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Patel",
+      "id_number": "ECLLM7690M",
+      "dob": "24/06/1971",
+      "address": "255, Park Street, Bengaluru - 662336"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0043_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Patel",
+      "id_number": "ECLLM7690M",
+      "dob": "24/06/1971",
+      "address": "255, Park Street, Bengaluru - 662336"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0044_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Neha Patel",
+      "id_number": "ECLLM7690M",
+      "dob": "24/06/1971",
+      "address": "255, Park Street, Bengaluru - 662336"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0045_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Neha Patel",
+      "id_number": "EMWBV8065A",
+      "dob": "24/06/1971",
+      "address": "255, Park Street, Bengaluru - 662336"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_a_0046_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Vivaan Bhatt",
+      "id_number": "WEMFK0392Z",
+      "dob": "26/08/1983",
+      "address": "434, Lake View Lane, Jaipur - 610311"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0047_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Vivaan Bhatt",
+      "id_number": "WEMFK0392Z",
+      "dob": "26/08/1983",
+      "address": "434, Lake View Lane, Jaipur - 610311"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0048_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Vivaan Bhatt",
+      "id_number": "WEMFK0392Z",
+      "dob": "26/08/1983",
+      "address": "434, Lake View Lane, Jaipur - 610311"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0049_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Vivaan Bhatt",
+      "id_number": "WEMFK0392Z",
+      "dob": "26/08/1983",
+      "address": "434, Lake View Lane, Jaipur - 610311"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0050_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Vivaan Bhatt",
+      "id_number": "FBTBI0495B",
+      "dob": "26/08/1983",
+      "address": "434, Lake View Lane, Jaipur - 610311"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_a_0051_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Verma",
+      "id_number": "WBBWK9550C",
+      "dob": "14/11/2002",
+      "address": "579, Lake View Lane, Chennai - 373432"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0052_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Verma",
+      "id_number": "WBBWK9550C",
+      "dob": "14/11/2002",
+      "address": "579, Lake View Lane, Chennai - 373432"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0053_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Verma",
+      "id_number": "WBBWK9550C",
+      "dob": "14/11/2002",
+      "address": "579, Lake View Lane, Chennai - 373432"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0054_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Verma",
+      "id_number": "WBBWK9550C",
+      "dob": "14/11/2002",
+      "address": "579, Lake View Lane, Chennai - 373432"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0055_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "WBBWK9550C",
+      "dob": "14/11/2002",
+      "address": "579, Lake View Lane, Chennai - 373432"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_a_0056_clean.jpg",
+    "doc_type": "type_a",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Aditya Menon",
+      "id_number": "QLYYA6505Q",
+      "dob": "09/03/1987",
+      "address": "903, MG Road, Bengaluru - 487477"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0057_blurred.jpg",
+    "doc_type": "type_a",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Aditya Menon",
+      "id_number": "QLYYA6505Q",
+      "dob": "09/03/1987",
+      "address": "903, MG Road, Bengaluru - 487477"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0058_glare.jpg",
+    "doc_type": "type_a",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Aditya Menon",
+      "id_number": "QLYYA6505Q",
+      "dob": "09/03/1987",
+      "address": "903, MG Road, Bengaluru - 487477"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0059_cropped.jpg",
+    "doc_type": "type_a",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Aditya Menon",
+      "id_number": "QLYYA6505Q",
+      "dob": "09/03/1987",
+      "address": "903, MG Road, Bengaluru - 487477"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_a_0060_tampered.jpg",
+    "doc_type": "type_a",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Aditya Menon",
+      "id_number": "VSPZR0826E",
+      "dob": "09/03/1987",
+      "address": "903, MG Road, Bengaluru - 487477"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0061_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Verma",
+      "id_number": "8712 2368 5290",
+      "dob": "21/07/1982",
+      "address": "46, MG Road, Chennai - 237174"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0062_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Verma",
+      "id_number": "8712 2368 5290",
+      "dob": "21/07/1982",
+      "address": "46, MG Road, Chennai - 237174"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0063_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Verma",
+      "id_number": "8712 2368 5290",
+      "dob": "21/07/1982",
+      "address": "46, MG Road, Chennai - 237174"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0064_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Verma",
+      "id_number": "8712 2368 5290",
+      "dob": "21/07/1982",
+      "address": "46, MG Road, Chennai - 237174"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0065_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Arjun Singh",
+      "id_number": "8712 2368 5290",
+      "dob": "21/07/1982",
+      "address": "46, MG Road, Chennai - 237174"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_b_0066_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Chawla",
+      "id_number": "4008 9585 1138",
+      "dob": "26/01/1987",
+      "address": "216, Park Street, Jaipur - 207786"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0067_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Chawla",
+      "id_number": "4008 9585 1138",
+      "dob": "26/01/1987",
+      "address": "216, Park Street, Jaipur - 207786"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0068_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Chawla",
+      "id_number": "4008 9585 1138",
+      "dob": "26/01/1987",
+      "address": "216, Park Street, Jaipur - 207786"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0069_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Chawla",
+      "id_number": "4008 9585 1138",
+      "dob": "26/01/1987",
+      "address": "216, Park Street, Jaipur - 207786"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0070_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Chawla",
+      "id_number": "9792 1714 1974",
+      "dob": "26/01/1987",
+      "address": "216, Park Street, Jaipur - 207786"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0071_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Joshi",
+      "id_number": "7217 3041 9388",
+      "dob": "08/01/1977",
+      "address": "409, Church Road, Chennai - 172792"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0072_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Joshi",
+      "id_number": "7217 3041 9388",
+      "dob": "08/01/1977",
+      "address": "409, Church Road, Chennai - 172792"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0073_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Joshi",
+      "id_number": "7217 3041 9388",
+      "dob": "08/01/1977",
+      "address": "409, Church Road, Chennai - 172792"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0074_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Joshi",
+      "id_number": "7217 3041 9388",
+      "dob": "08/01/1977",
+      "address": "409, Church Road, Chennai - 172792"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0075_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Joshi",
+      "id_number": "6395 9191 9214",
+      "dob": "08/01/1977",
+      "address": "409, Church Road, Chennai - 172792"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0076_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Arjun Bhatt",
+      "id_number": "3653 5270 9577",
+      "dob": "22/04/1988",
+      "address": "442, MG Road, Jaipur - 446239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0077_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Arjun Bhatt",
+      "id_number": "3653 5270 9577",
+      "dob": "22/04/1988",
+      "address": "442, MG Road, Jaipur - 446239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0078_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Arjun Bhatt",
+      "id_number": "3653 5270 9577",
+      "dob": "22/04/1988",
+      "address": "442, MG Road, Jaipur - 446239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0079_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Arjun Bhatt",
+      "id_number": "3653 5270 9577",
+      "dob": "22/04/1988",
+      "address": "442, MG Road, Jaipur - 446239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0080_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Arjun Gupta",
+      "id_number": "3653 5270 9577",
+      "dob": "22/04/1988",
+      "address": "442, MG Road, Jaipur - 446239"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_b_0081_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Gupta",
+      "id_number": "6365 1637 1548",
+      "dob": "10/05/1978",
+      "address": "441, Lake View Lane, Ahmedabad - 437902"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0082_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Gupta",
+      "id_number": "6365 1637 1548",
+      "dob": "10/05/1978",
+      "address": "441, Lake View Lane, Ahmedabad - 437902"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0083_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Gupta",
+      "id_number": "6365 1637 1548",
+      "dob": "10/05/1978",
+      "address": "441, Lake View Lane, Ahmedabad - 437902"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0084_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Gupta",
+      "id_number": "6365 1637 1548",
+      "dob": "10/05/1978",
+      "address": "441, Lake View Lane, Ahmedabad - 437902"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0085_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Gupta",
+      "id_number": "6579 7626 6092",
+      "dob": "10/05/1978",
+      "address": "441, Lake View Lane, Ahmedabad - 437902"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0086_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Reddy",
+      "id_number": "8109 6748 5733",
+      "dob": "05/11/1965",
+      "address": "915, MG Road, Hyderabad - 329471"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0087_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Reddy",
+      "id_number": "8109 6748 5733",
+      "dob": "05/11/1965",
+      "address": "915, MG Road, Hyderabad - 329471"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0088_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Reddy",
+      "id_number": "8109 6748 5733",
+      "dob": "05/11/1965",
+      "address": "915, MG Road, Hyderabad - 329471"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0089_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Reddy",
+      "id_number": "8109 6748 5733",
+      "dob": "05/11/1965",
+      "address": "915, MG Road, Hyderabad - 329471"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0090_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Reddy",
+      "id_number": "0284 8695 9867",
+      "dob": "05/11/1965",
+      "address": "915, MG Road, Hyderabad - 329471"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0091_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Meera Patel",
+      "id_number": "8587 4226 7562",
+      "dob": "03/12/1983",
+      "address": "241, Church Road, Chennai - 435239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0092_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Patel",
+      "id_number": "8587 4226 7562",
+      "dob": "03/12/1983",
+      "address": "241, Church Road, Chennai - 435239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0093_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Patel",
+      "id_number": "8587 4226 7562",
+      "dob": "03/12/1983",
+      "address": "241, Church Road, Chennai - 435239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0094_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Meera Patel",
+      "id_number": "8587 4226 7562",
+      "dob": "03/12/1983",
+      "address": "241, Church Road, Chennai - 435239"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0095_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Aditya Reddy",
+      "id_number": "8587 4226 7562",
+      "dob": "03/12/1983",
+      "address": "241, Church Road, Chennai - 435239"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_b_0096_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Diya Chawla",
+      "id_number": "1243 4083 7908",
+      "dob": "19/07/1995",
+      "address": "7, Church Road, Chennai - 508930"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0097_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Chawla",
+      "id_number": "1243 4083 7908",
+      "dob": "19/07/1995",
+      "address": "7, Church Road, Chennai - 508930"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0098_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Chawla",
+      "id_number": "1243 4083 7908",
+      "dob": "19/07/1995",
+      "address": "7, Church Road, Chennai - 508930"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0099_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Diya Chawla",
+      "id_number": "1243 4083 7908",
+      "dob": "19/07/1995",
+      "address": "7, Church Road, Chennai - 508930"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0100_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Saanvi Reddy",
+      "id_number": "1243 4083 7908",
+      "dob": "19/07/1995",
+      "address": "7, Church Road, Chennai - 508930"
+    },
+    "tampered_field": "name"
+  },
+  {
+    "filename": "type_b_0101_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "4367 7899 5956",
+      "dob": "03/11/1992",
+      "address": "139, Station Road, Bengaluru - 152727"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0102_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "4367 7899 5956",
+      "dob": "03/11/1992",
+      "address": "139, Station Road, Bengaluru - 152727"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0103_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "4367 7899 5956",
+      "dob": "03/11/1992",
+      "address": "139, Station Road, Bengaluru - 152727"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0104_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "4367 7899 5956",
+      "dob": "03/11/1992",
+      "address": "139, Station Road, Bengaluru - 152727"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0105_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kabir Patel",
+      "id_number": "2373 7820 0593",
+      "dob": "03/11/1992",
+      "address": "139, Station Road, Bengaluru - 152727"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0106_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "7679 1011 6526",
+      "dob": "25/06/1975",
+      "address": "621, Lake View Lane, Jaipur - 220096"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0107_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "7679 1011 6526",
+      "dob": "25/06/1975",
+      "address": "621, Lake View Lane, Jaipur - 220096"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0108_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "7679 1011 6526",
+      "dob": "25/06/1975",
+      "address": "621, Lake View Lane, Jaipur - 220096"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0109_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "7679 1011 6526",
+      "dob": "25/06/1975",
+      "address": "621, Lake View Lane, Jaipur - 220096"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0110_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Kavya Verma",
+      "id_number": "1036 9370 6617",
+      "dob": "25/06/1975",
+      "address": "621, Lake View Lane, Jaipur - 220096"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0111_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Menon",
+      "id_number": "6197 3435 3881",
+      "dob": "12/11/1994",
+      "address": "725, Park Street, Hyderabad - 284692"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0112_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Menon",
+      "id_number": "6197 3435 3881",
+      "dob": "12/11/1994",
+      "address": "725, Park Street, Hyderabad - 284692"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0113_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Menon",
+      "id_number": "6197 3435 3881",
+      "dob": "12/11/1994",
+      "address": "725, Park Street, Hyderabad - 284692"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0114_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rahul Menon",
+      "id_number": "6197 3435 3881",
+      "dob": "12/11/1994",
+      "address": "725, Park Street, Hyderabad - 284692"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0115_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rahul Menon",
+      "id_number": "6974 8532 9247",
+      "dob": "12/11/1994",
+      "address": "725, Park Street, Hyderabad - 284692"
+    },
+    "tampered_field": "id_number"
+  },
+  {
+    "filename": "type_b_0116_clean.jpg",
+    "doc_type": "type_b",
+    "variant": "clean",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rohan Kulkarni",
+      "id_number": "6343 4322 5855",
+      "dob": "07/02/1980",
+      "address": "738, Station Road, Hyderabad - 682144"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0117_blurred.jpg",
+    "doc_type": "type_b",
+    "variant": "blurred",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rohan Kulkarni",
+      "id_number": "6343 4322 5855",
+      "dob": "07/02/1980",
+      "address": "738, Station Road, Hyderabad - 682144"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0118_glare.jpg",
+    "doc_type": "type_b",
+    "variant": "glare",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rohan Kulkarni",
+      "id_number": "6343 4322 5855",
+      "dob": "07/02/1980",
+      "address": "738, Station Road, Hyderabad - 682144"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0119_cropped.jpg",
+    "doc_type": "type_b",
+    "variant": "cropped",
+    "expected_quality_verdict": "fail",
+    "expected_fields": {
+      "name": "Rohan Kulkarni",
+      "id_number": "6343 4322 5855",
+      "dob": "07/02/1980",
+      "address": "738, Station Road, Hyderabad - 682144"
+    },
+    "tampered_field": null
+  },
+  {
+    "filename": "type_b_0120_tampered.jpg",
+    "doc_type": "type_b",
+    "variant": "tampered",
+    "expected_quality_verdict": "pass",
+    "expected_fields": {
+      "name": "Rohan Kulkarni",
+      "id_number": "6470 2635 4547",
+      "dob": "07/02/1980",
+      "address": "738, Station Road, Hyderabad - 682144"
+    },
+    "tampered_field": "id_number"
+  }
+]
